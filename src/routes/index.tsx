@@ -11,10 +11,10 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Anjali | Game Designer & Developer Portfolio" },
-      { name: "description", content: "Portfolio of Yeroju Anjali — Game Designer specializing in Unity3D, 3D/2D game development, and interactive experiences." },
-      { property: "og:title", content: "Anjali | Game Designer & Developer" },
-      { property: "og:description", content: "Explore Anjali's game design portfolio featuring 3D RPGs, arcade shooters, and creative 2D games." },
+      { title: "Habeeba Khanam | Game Designer & UI/UX Portfolio" },
+      { name: "description", content: "Portfolio of Habeeba Khanam — Game Designer & UI/UX Designer specializing in Unity3D, AI applications, and interactive experiences." },
+      { property: "og:title", content: "Habeeba Khanam | Game Designer & UI/UX Developer" },
+      { property: "og:description", content: "Explore Habeeba's game design portfolio featuring 3D action games, 2D platformers, and AI-powered apps." },
     ],
   }),
 });

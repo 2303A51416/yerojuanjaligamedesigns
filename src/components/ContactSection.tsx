@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Linkedin, MapPin } from "lucide-react";
+import { Mail, Linkedin, MapPin, Github } from "lucide-react";
 
 export function ContactSection() {
   return (
@@ -13,7 +13,7 @@ export function ContactSection() {
         >
           <h2 className="font-display text-4xl md:text-5xl font-bold text-gradient mb-4">Let's Build Something</h2>
           <p className="text-muted-foreground text-lg mb-12 max-w-xl mx-auto">
-            Interested in collaborating on a game project or want to chat about game design? Reach out!
+            Interested in collaborating on a game project or design work? Reach out!
           </p>
         </motion.div>
 
@@ -22,23 +22,32 @@ export function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-6"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap"
         >
           <a
-            href="mailto:yerrojuanjali@gmail.com"
+            href="mailto:habeebakhan2507@gmail.com"
             className="flex items-center gap-3 px-6 py-4 rounded-xl glow-border glow-border-hover bg-card/50 backdrop-blur-sm transition-all duration-500 w-full sm:w-auto"
           >
             <Mail size={20} className="text-primary" />
-            <span className="text-sm text-foreground">yerrojuanjali@gmail.com</span>
+            <span className="text-sm text-foreground">habeebakhan2507@gmail.com</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/yeroju-anjali-40b107300/"
+            href="https://linkedin.com/in/habeeba-khanam-524661343"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 px-6 py-4 rounded-xl glow-border glow-border-hover bg-card/50 backdrop-blur-sm transition-all duration-500 w-full sm:w-auto"
           >
             <Linkedin size={20} className="text-primary" />
             <span className="text-sm text-foreground">LinkedIn Profile</span>
+          </a>
+          <a
+            href="https://github.com/2303A51474"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-6 py-4 rounded-xl glow-border glow-border-hover bg-card/50 backdrop-blur-sm transition-all duration-500 w-full sm:w-auto"
+          >
+            <Github size={20} className="text-primary" />
+            <span className="text-sm text-foreground">GitHub</span>
           </a>
         </motion.div>
 
@@ -50,7 +59,7 @@ export function ContactSection() {
           className="flex items-center justify-center gap-2 mt-8 text-muted-foreground text-sm"
         >
           <MapPin size={14} />
-          <span>Hanmakonda, Telangana, India</span>
+          <span>Hanamkonda, Telangana, India</span>
         </motion.div>
       </div>
     </section>

@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 import { Award } from "lucide-react";
 
 const certs = [
-  { title: "Java Programming Certification", issuer: "Professional Certification" },
-  { title: "Prompt Engineering — AI Certification", issuer: "AI & Machine Learning" },
-  { title: "Mechanics of Game Design (x3)", issuer: "MindLuster — Game Design" },
-  { title: "Operational Research", issuer: "Saylor Academy" },
+  { title: "Prompt Engineering", issuer: "Infosys Springboard · Apr 2026" },
+  { title: "Probability and Statistics using Python", issuer: "Infosys Springboard · Mar 2025" },
+  { title: "Introduction to Natural Language Processing", issuer: "Infosys Springboard · Sep 2024" },
+  { title: "Introduction to Robotic Process Automation", issuer: "Infosys Springboard · Sep 2024" },
+  { title: "Introduction to Artificial Intelligence", issuer: "Infosys Springboard · Sep 2024" },
 ];
 
 export function CertificationsSection() {
@@ -20,7 +21,7 @@ export function CertificationsSection() {
           className="text-center mb-16"
         >
           <h2 className="font-display text-4xl md:text-5xl font-bold text-gradient mb-4">Certifications</h2>
-          <p className="text-muted-foreground text-lg">Continuous learning in game design, AI, and programming.</p>
+          <p className="text-muted-foreground text-lg">Verified certifications from Infosys Springboard across AI, NLP, and more.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
