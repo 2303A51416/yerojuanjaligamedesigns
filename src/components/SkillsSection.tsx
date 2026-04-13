@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Cpu, Palette, Code, Layers, Lightbulb, Cog } from "lucide-react";
 
 const skills = [
-  { icon: Layers, title: "Unity3D", desc: "3D & 2D game development, physics, animation systems" },
+  { icon: Layers, title: "Unity3D", desc: "3D & 2D game development, physics, animation, level design" },
   { icon: Code, title: "Programming", desc: "Java, Python, SQL, C# — clean game logic & systems" },
-  { icon: Palette, title: "Game Design", desc: "Mechanics, level design, player experience, balancing" },
-  { icon: Cpu, title: "AI & ML", desc: "AI-powered features, adaptive gameplay, smart NPCs" },
-  { icon: Lightbulb, title: "UI/UX Design", desc: "Intuitive game interfaces, HUD design, menus" },
+  { icon: Palette, title: "UI/UX Design", desc: "Figma, Canva — intuitive interfaces, HUD design, menus" },
+  { icon: Cpu, title: "AI & NLP", desc: "AI-powered features, speech recognition, text summarization" },
+  { icon: Lightbulb, title: "Game Design", desc: "Mechanics, level design, player experience, balancing" },
   { icon: Cog, title: "Web Tech", desc: "HTML, CSS, JavaScript — web-based games & portfolios" },
 ];
 

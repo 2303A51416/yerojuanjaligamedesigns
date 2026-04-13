@@ -5,7 +5,6 @@ import { Gamepad2, ChevronDown } from "lucide-react";
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
       <div className="absolute inset-0">
         <img
           src={heroBg}
@@ -17,7 +16,6 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -26,7 +24,7 @@ export function HeroSection() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glow-border mb-8 bg-surface/50">
             <Gamepad2 size={16} className="text-accent" />
-            <span className="text-sm font-medium text-muted-foreground">Game Designer & Developer</span>
+            <span className="text-sm font-medium text-muted-foreground">UI/UX Designer · Game Designer</span>
           </div>
         </motion.div>
 
@@ -36,7 +34,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.1] mb-6"
         >
-          <span className="text-gradient">Yeroju Anjali</span>
+          <span className="text-gradient">Habeeba Khanam</span>
         </motion.h1>
 
         <motion.p
@@ -45,8 +43,8 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Crafting immersive worlds and unforgettable gameplay experiences.
-          From 3D RPGs to arcade shooters — I bring ideas to life with Unity3D and code.
+          Crafting immersive game worlds and intuitive user experiences.
+          From 3D action games to AI-powered apps — I bring ideas to life with Unity3D, design, and code.
         </motion.p>
 
         <motion.div
@@ -70,7 +68,6 @@ export function HeroSection() {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

@@ -1,38 +1,38 @@
 import { motion } from "framer-motion";
 import huntressImg from "@/assets/project-huntress.jpg";
-import spaceshooterImg from "@/assets/project-spaceshooter.jpg";
-import angrybirdImg from "@/assets/project-angrybird.jpg";
-import tictactoeImg from "@/assets/project-tictactoe.jpg";
+import sonicImg from "@/assets/project-sonic.jpg";
+import puzzleImg from "@/assets/project-puzzle.jpg";
+import echolearnImg from "@/assets/project-echolearn.jpg";
 
 const projects = [
   {
     title: "The Last Huntress",
-    subtitle: "3D Game",
-    description: "An atmospheric 3D survival RPG set in a post-apocalyptic wilderness. Features dynamic combat, exploration, and a rich narrative-driven experience.",
+    subtitle: "3D Action Game",
+    description: "Designed and developed a 3D action game in Unity featuring immersive gameplay mechanics, level design, character controls, and cinematic UI — showcasing advanced game design skills.",
     image: huntressImg,
-    tags: ["Unity3D", "3D Design", "Game Mechanics", "Narrative"],
+    tags: ["Unity3D", "3D Design", "Game Mechanics", "Cinematic UI"],
     featured: true,
   },
   {
-    title: "Space Shooter",
-    subtitle: "2D Arcade",
-    description: "Fast-paced arcade space shooter with intense boss battles, power-ups, and procedurally increasing difficulty.",
-    image: spaceshooterImg,
-    tags: ["Unity3D", "2D Design", "Arcade", "VFX"],
+    title: "2D Sonic Head Mania",
+    subtitle: "2D Platformer",
+    description: "Fast-paced 2D action game inspired by classic Sonic gameplay built in Unity — implemented physics, collision detection, sprite animations, and progressive level design.",
+    image: sonicImg,
+    tags: ["Unity3D", "2D Design", "Physics", "Published"],
   },
   {
-    title: "Angry Bird Clone",
-    subtitle: "2D Physics",
-    description: "A physics-based puzzle game with slingshot mechanics, destructible environments, and creative level design.",
-    image: angrybirdImg,
-    tags: ["Unity3D", "Physics", "Level Design", "2D Art"],
+    title: "Puzzle Game & Tic Tac Toe",
+    subtitle: "3D Puzzle / Strategy",
+    description: "3D Puzzle Game with custom level logic and intuitive UX. 3D Tic Tac Toe with win/draw detection, C# scripting, and clean UI — both built independently in Unity.",
+    image: puzzleImg,
+    tags: ["Unity3D", "C#", "Level Design", "UI/UX"],
   },
   {
-    title: "TicTacToe",
-    subtitle: "2D Strategy",
-    description: "A sleek, neon-styled TicTacToe game with AI opponent and multiplayer modes, featuring polished UI and animations.",
-    image: tictactoeImg,
-    tags: ["Unity3D", "AI Logic", "UI/UX", "Multiplayer"],
+    title: "Echo Learn — AI Voice Notes",
+    subtitle: "AI Application",
+    description: "AI-powered application that converts voice input into summarized notes using speech recognition and NLP. Combines voice processing with intelligent text summarization.",
+    image: echolearnImg,
+    tags: ["AI", "NLP", "Speech Recognition", "Academic"],
   },
 ];
 
@@ -57,9 +57,9 @@ export function ProjectsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-gradient mb-4">Game Projects</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-gradient mb-4">Projects</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A showcase of game design and development work, from immersive 3D worlds to addictive 2D experiences.
+            A showcase of game design, development, and AI-powered applications.
           </p>
         </motion.div>
 
@@ -84,8 +84,8 @@ export function ProjectsSection() {
                     src={project.image}
                     alt={project.title}
                     loading="lazy"
-                    width={800}
-                    height={512}
+                    width={1024}
+                    height={640}
                     className="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                 </div>
